@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8000;
 app.use(bodyParser.json());
 app.use(cors());
 
-const MONGODB_URI = 'mongodb://localhost:27017/UpstepDemo';
+const MONGODB_URI = 'mongodb+srv://shivamsinghyadavssy888:Ho4f40AmnBg99hmT@filesharing.p5viuvj.mongodb.net/sharing?retryWrites=true&w=majority&appName=filesharing';
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 
