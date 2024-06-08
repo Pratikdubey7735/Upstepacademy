@@ -23,7 +23,7 @@ const Demo = () => {
       return;
     }
     try {
-      await axios.post('http://localhost:8000/api/submitFormData', formData);
+      await axios.post('https://leader-9ro9.onrender.com/api/submitFormData', formData);
       
       window.alert('Demo booked successfully!');
       window.location.reload();
