@@ -36,7 +36,7 @@ function Offline() {
 
   async function saveGameResult(winner) {
     try {
-      await axios.post('http://localhost:8000/api/saveGameResult', {
+      await axios.post('https://leader-9ro9.onrender.com/api/saveGameResult', {
         winner,
         playerNames,
       });
